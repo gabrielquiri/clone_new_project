@@ -17,6 +17,11 @@
             width: 368px;
         }
 
+        @media (max-width:768px) and (min-width: 1023px){
+            grid-template-columns: 1fr 1fr;
+            width: 368px;
+        }
+
         &__item {
             img {
                 width: 100%;
