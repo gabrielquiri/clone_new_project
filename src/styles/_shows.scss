@@ -17,7 +17,7 @@
             width: 368px;
         }
 
-        @media (max-width: 767px) {
+        @media (min-width: 767px) {
             grid-template-columns: 1fr;
             width: 368px;
         }
