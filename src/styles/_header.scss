@@ -12,7 +12,9 @@
     }
 
     @media (min-width:768px) and (max-width: 1023px){
-        width: 1000px;
+        width: 100%;
+        padding: 10px 500px 10px;
+
     }
 
     &__container {
