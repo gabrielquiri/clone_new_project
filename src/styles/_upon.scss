@@ -1,0 +1,34 @@
+.upon {
+    padding: 36px 0;
+    background-color: #612490;
+
+    &__div{
+        margin: 0px 232px;
+
+        @media (max-width: 767px) {
+            margin: 0 20px;
+        }
+
+        &__box {
+            margin: 0 288px;
+            padding: 0 24px;
+
+            @media (max-width: 767px) {
+                margin: 0 20px;
+            }
+
+            .title--medium{
+                text-align: center;
+                margin-bottom: 30px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+            }
+
+            .text--big{
+                text-align: center;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}

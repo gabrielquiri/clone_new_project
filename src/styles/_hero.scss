@@ -1,0 +1,44 @@
+@use 'variaveis';
+
+.hero {
+    padding-left: 246px;
+    padding-top: 30px;
+
+    @media (max-width: 767px) {
+        padding: 10px 10px;
+        align-items: center;
+    }
+
+    img {
+        border-radius: 6px;
+        position: relative;
+        width: 1415px;
+
+        @media (max-width: 767px) {
+            width: 355px;
+        }
+    }
+
+    .title {
+        position: absolute;
+        top: 570px;
+        left: 290px;
+        font-weight: 900;
+    }
+
+    .text--big {
+        position: absolute;
+        top: 615px;
+        left: 290px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .text--link {
+        position: absolute;
+        top: 665px;
+        left: 290px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+}

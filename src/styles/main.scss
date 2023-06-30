@@ -1,0 +1,53 @@
+@use 'variaveis';
+@use 'hero';
+@use 'shows';
+@use 'upon';
+@use 'footer';
+@use 'header';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+body {
+    background-color: variaveis.$backgroundColor;
+}
+
+@mixin title($fontSize: 28px) {
+    font-size: $fontSize;
+    color: variaveis.$MainTextColor;
+}
+
+.title {
+    @include title;
+}
+
+.title--medium {
+    @include title(20px);
+}
+
+.title--small {
+    @include title(18px);
+}
+
+@mixin text($fontSize: 14px) {
+    font-size: $fontSize;
+    color: variaveis.$secondaryTextColor;
+}
+
+.text--big {
+    @include text;
+    color: variaveis.$MainTextColor;
+}
+
+.text {
+    @include text(12px);
+}
+
+.text--link{
+    @include text;
+    color: variaveis.$thirdTextColor;
+}
